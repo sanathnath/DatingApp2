@@ -54,8 +54,6 @@ export class MemberDetailComponent implements OnInit {
       next: member => {
         this.member = member;
         this.galleryImages = this.getImages();
-        console.log(this.galleryImages);
-        
       } 
     })
   }
