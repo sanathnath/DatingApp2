@@ -12,6 +12,7 @@ import { MembersService } from 'src/app/_services/members.service';
   templateUrl: './member-edit.component.html',
   styleUrls: ['./member-edit.component.css']
 })
+
 export class MemberEditComponent implements OnInit {
   @ViewChild('editForm') editForm: NgForm | undefined; 
   @HostListener('window:beforeunload',['$event']) unloadNotification($event: any){

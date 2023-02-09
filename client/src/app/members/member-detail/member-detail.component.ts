@@ -29,7 +29,6 @@ export class MemberDetailComponent implements OnInit {
       imageAnimation: NgxGalleryAnimation.Slide,
       preview: false
     }]
-
   }
 
   getImages(){
